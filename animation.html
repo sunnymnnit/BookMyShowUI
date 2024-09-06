@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframes Example</title>
+    <style>
+        /* Define the animation using @keyframes */
+        @keyframes slidein {
+            0% {
+                transform: translateX(0%);
+            }
+            50% {
+                transform: translateX(50%);
+            }
+            100% {
+                transform: translateX(100%);
+            }
+        }
+
+        /* Apply the animation to an element */
+        .animated-box {
+            width: 100px;
+            height: 100px;
+            background-color: coral;
+            animation: slidein 3s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="animated-box"></div>
+</body>
+</html>
