@@ -1,1 +1,1 @@
-bookmyshow ui
+bookmyshow basic ui
